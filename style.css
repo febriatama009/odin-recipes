@@ -1,0 +1,43 @@
+.title-recipe {
+  text-align: center;
+}
+
+.three-post__inner.card-list {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.top-img {
+  border-radius: 24px;
+  margin: 0;
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+.content-recipe {
+  margin-top: 50px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.category {
+  font-size: 14px;
+  color: grey;
+}
+
+.title-food {
+  margin: 0;
+}
+
+.category-desc {
+  font-size: 20px;
+}
